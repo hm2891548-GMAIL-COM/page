@@ -1,0 +1,438 @@
+<!Doctype html>
+<html leng="en">
+<head>
+<title>page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+font-family: 'Poppins', sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:Smooth;
+}
+
+header{
+	
+    background-color:black;	
+	width:100%;
+    position:fixed; 
+	z-index:999;  
+	display:flex; 
+	justify-content:space-between;
+	align-items:center;	
+	padding:10px 200px;
+}
+ 
+ .logo{
+    text-decoration:none;
+     color:#E26A28;
+	 text-transform:uppercase;
+	 font-weight:700;
+	 font-size:1.8em;
+ }
+ .navigation a{
+     text-decoration:none;
+     color:#3a6cf4;
+       font-size:1.1em;
+	    font-weight:500;
+		padding-left:30px;
+ }
+  .navigation a:hover{
+     color:#601cfc;
+  }
+  
+.hi{ 
+
+   padding:190px 20px;
+}
+ section{
+   padding:200px 100px;
+ } 
+  
+.main{
+   width:100%;
+   min-hight:100vh;
+   display:flex;
+   align-items:center;
+   background:url(https://scontent.fcai21-3.fna.fbcdn.net/v/t31.18172-8/19466469_2010797752481471_1138572890666177814_o.jpg?_nc_cat=105&ccb=1-5&_nc_sid=e3f864&_nc_ohc=K0KPZ-DthmsAX9-K4wo&tn=CPWfr4QNdvD-Ii8K&_nc_ht=scontent.fcai21-3.fna&oh=00_AT-eriNACYVtPYPOAKx8S9jIrbEGa6P3HpHPvBD6hVmgbQ&oe=622EFD40)no-repeat;
+   background-size:cover;
+   background-position:center;
+   background-attachment:fixed;
+   
+ } 
+ .main h2{
+  color:balck ;
+  font-size:1.4em;
+  font-weight:500;
+ }
+ .main h2 span{
+display:inline-black;
+margin-top:10px;
+   color:#4e9eff;
+   font-size:3em;
+   font-weight:600;
+ }
+ .main h3{
+   color:black;
+   font-size:2em;
+   font-weight:700;
+   letter-spacing:1px;
+   margin-top:10px;
+   margin-bottom:30px;
+ }
+ 
+ .main-btn{
+ color:white;
+ background-color:black;
+ text-decoration:none;
+ font-size:1.1em;
+ font-weight:600;
+ display:inline-block;
+ padding :0.9375em 2.1875em;
+ letter-spacing:1px;
+ border-radius:15px;
+ margin-bottom:40px;
+transition: 0.7s ease;
+ }
+  
+  .main-btn:hover{
+      background-color:#E26A28;
+	  transform:scale(1.1);
+  } 
+ 
+ .social-icons a {
+    color: #black;
+    font-size: 1.7em;
+    padding-right: 30px;
+	margin-left:30px;
+}
+.social-icons a:hover{
+ color : #E26A28;
+  transform:scale(1.1);
+}
+.title{
+  display:flex;
+   justify-content:center;
+   color:#3a6cf4;
+   font-size:2.2em;
+   font-weight:800;
+   margin-bottom:30px;
+}
+.content{
+    display:flex;
+   justify-content:center;
+   flex-direction:row;
+   flex-wrap:wrap;
+}
+.card{
+ background-color:white;
+width:21.25em;
+box-shadow:0 5px 25px rgba(1 1 1 / 15%);
+border-radius:10px;
+padding: 25px;
+margin:15px;
+transition: 1.4s ease;
+}
+.card:hover{
+      background-color:#E26A28;
+	  transform:scale(1.1);
+  } 
+
+}
+.icons{
+ color :#E26A28
+  font-size:8em;
+  text-align:center;
+}
+.info{
+   text-align:center;
+}
+.info h3{
+   color:#3a6cf4;
+   font-size:1.2em;
+   font-weight:700;
+   margin:10px;
+}
+
+.project{
+   background-color:#000016;
+
+}
+
+.projects .content{
+  margin-top:30px;
+}
+
+.project-card{
+ background-color:#fff;
+ border :1px solid #fff;
+ min-hight:14em;
+ width:23em;
+ overflow:hidden;
+ border-radius:10px;
+ margin:20px;
+ transition:1s ease;
+}
+.project-card:hover{
+transform: scale(1.1);
+
+}
+
+.project-card:hover .project-image{
+
+  opacity:0.9;
+
+}
+.project-image img{
+  width:100%;
+
+}
+.project-info{
+padding :1em;
+} 
+.project-category{
+font-size:0.8em;
+color:#00000;
+}
+.project-title{
+   display:flex;
+   justify-content:space-between;
+   text-transform:uppercase;
+   font-weight:800;
+   margin-top:10px;
+}
+.more-details{
+  text-decoration:none;
+  color:#0000000;
+}
+.more-details:hover{
+ 
+  color:#E26A28;
+} 
+.icons-m{
+  dipsplay:flex;
+  font-size:4em;
+  text-align:center;
+  color:#3a6cf4;
+}
+ 
+.footer{
+ background-color:#000016;
+   color:white;
+   padding:2em;
+   display:flex;
+   justify-content:space-between;
+}
+.footer-title{
+  font-size:1.3em;
+   font-weight:600;
+}
+@media (max-width:1023px;){
+  header{
+     padding:12px 20px;
+  }
+  .navigation a{
+    padding-left:10px;
+  }
+  .title{
+     font-size:1.8em;
+  }
+  section{
+  padding:80px 20px;
+  }
+  .main-content h2{
+    font-size:1em;
+  }
+   .main-content h3{
+    font-size:1.6em;
+  }
+  .content{
+     flex-diraction:column;
+	 align-items:center;
+  }
+  
+  
+}
+@media(max-width:641px){
+  body{
+    font-size:12px;
+  }
+   .main-comtent h2{
+   font-size:0.8em;
+   }
+    .main-comtent h3{
+   font-size:1.4em;
+   }
+}
+
+@@media(max-width:300px){
+ body{
+    font-size:12px;
+  }
+
+
+}
+
+</style>
+<body>
+
+<header>
+ <a href="#" class="logo">Hassan</a>
+ <nav class="navigation">
+    <a href="#Services">Services</a>
+	 <a href="#Projects">Projects</a>
+	  <a href="#Contact">Contact</a>
+ </nav>
+</header>
+
+<section class="main" >
+ <div class="hi">
+   <div>
+      <h2>hello,i'm hassan mohamed<br><span> web developer </span></h2>
+	  <h3>freelancer web developer</h3>
+	   <a href="#projects" class="main-btn" > view my work</a>
+	            <div class="social-icons">
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+	 </div>
+   </div>
+   </div>
+</section>
+
+<section class="cards" id="Services">
+
+<h2 class="title">services</h2>
+<div class="content">
+<div class="card">
+     <div class="icons-m">
+     <i class="fa fa-connectdevelop"></i>
+     </div>
+
+   <div class="info">
+     <h3>web-developer</h3>
+	 <p>make web pages the front-end and the pack-end </p>
+   </div>
+   </div>
+   <div class="card">
+   <div class="icons-m">
+       <i class="fa fa-tv"></i>
+     </div>
+
+   <div class="info">
+     <h3>front-end</h3>
+	 <p>make the front-end of web pages</p>
+   </div>
+   </div>
+</div>
+</section>
+
+
+<section class="project" id="Projects">
+<h2 class="title">Projects</h2>
+ <div class="content">
+
+        <div class="project-card">
+		<div class="project-image" >
+		<img src="https://www.w3schools.com/w3images/photographer.jpg"/>
+		</div>
+		<div class="project-info">
+		 <p class="project-category"> photo web to show the photos</p>
+		 <strong class="project-title">
+		 <span>photo web</span> 
+		 <a href="#" class="more-details"> open the page </a>
+		 </strong>
+		</div>
+</div>
+<div class="content">
+
+        <div class="project-card">
+		<div class="project-image" >
+		<img src="https://www.w3schools.com/howto/img_band_ny.jpg"/>
+		</div>
+		<div class="project-info">
+		 <p class="project-category"> band web to show more about the band </p>
+		 <strong class="project-title">
+		 <span>band web </span> 
+		 <a href="#" class="more-details"> open the page </a>
+		 </strong>
+		</div>
+</div>
+<div class="content">
+
+        <div class="project-card">
+		<div class="project-image" >
+		<img src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg"/>
+		</div>
+		<div class="project-info">
+		 <p class="project-category">Scientific report of Dr.Norman Borlaug</p>
+		 <strong class="project-title">
+		 <span> report </span> 
+		 <a href="#" class="more-details"> open the page </a>
+		 </strong>
+		</div>
+</div>
+</section>
+
+<section class="cards" id="Contact">
+<h2 class="title">Let's work together</h2 >
+<div class="content">
+<div class="card">
+     <div class="icons-m">
+     <i class="fa fa-phone"></i>
+     </div>
+
+   <div class="info">
+     <h3>phone</h3>
+	 <p> +2001150149853 </p>
+   </div>
+   </div>
+   <div class="card">
+   <div class="icons-m">
+       <i class="fa fa-whatsapp"></i>
+     </div>
+
+   <div class="info">
+     <h3>whatsapp</h3>
+	 <p>01150149853</p>
+   </div>
+   </div>
+      <div class="card">
+   <div class="icons-m">
+       <i class="fa fa-envelope"></i>
+     </div>
+
+   <div class="info">
+     <h3>Gmail</h3>
+	 <p>hm2891548@gmail.com</p>
+   </div>
+   </div>
+</div>
+</section>
+
+<footer class="footer">
+<p class="dooter-title"> copyrights @<span style=' color:#3a6cf4;'>Hassan Mohamed</span></p>
+     <div class="social-icons">
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
